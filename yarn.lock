@@ -302,10 +302,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mapbox/node-pre-gyp@^1.0.0":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.9.tgz#09a8781a3a036151cdebbe8719d6f8b25d4058bc"
-  integrity sha512-aDF3S3rK9Q2gey/WAttUlISduDItz5BU3306M9Eyv6/oS40aMprnopshtlKTykxRNIBEZuRMaZAnbrQ4QtKGyw==
+"@mapbox/node-pre-gyp@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.10.tgz#8e6735ccebbb1581e5a7e652244cadc8a844d03c"
+  integrity sha512-4ySo4CjzStuprMwk35H5pPbkymjv1SF3jGLj6rAHp/xT/RF7TL7bd9CTm1xDY49K2qF7jmR/g7k+SkLETP6opA==
   dependencies:
     detect-libc "^2.0.0"
     https-proxy-agent "^5.0.0"
@@ -801,31 +801,31 @@
   resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.8.3.tgz#781d360c282436494b32fe7d9f7f8e64b3118aa3"
   integrity sha512-fbF6oTd4sGGy0xjHPKAt+eS2CrxJ3+6gQ3FGcBoIJR2TLAyCkCyI8JqZNy+FeON0AhVgNJoUumVoZQjBFUqHkw==
 
-"@vendure/admin-ui-plugin@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@vendure/admin-ui-plugin/-/admin-ui-plugin-1.7.1.tgz#d711b0ea3f666c69ab9e299dab7d3eadf51ddfb3"
-  integrity sha512-lzyHIExzQE9i4aJyG9PcC1z9D//8+T80CsDp1Vant/SNiMG0n/P6/ANz6t7Y3FqU0yM0Dtl5Bck04KOo2ISo1Q==
+"@vendure/admin-ui-plugin@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@vendure/admin-ui-plugin/-/admin-ui-plugin-1.9.3.tgz#68a3d73e600d7d0e54cd0ca01dabe7c3218c1bf3"
+  integrity sha512-kcoNENxW36k4ns68cwqzQtRFKRerTnnX5u7WXC3gYCvRI4az/c2yRJ25mgkuUXCUpD7nUAH7PUei3uvtrUpWFQ==
   dependencies:
     fs-extra "^10.0.0"
 
-"@vendure/asset-server-plugin@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@vendure/asset-server-plugin/-/asset-server-plugin-1.7.1.tgz#ab77ebc48f3f1c7ef2e2076e295a62a7fdfee5af"
-  integrity sha512-u0zbaRy08YF3WQyF3y8KuX+MlgEBcAE5VLsF4v7MIjJRrUq3g+9TF7DgnoWHhOZBq6fgRxUC7E1WRFEJ3crP6Q==
+"@vendure/asset-server-plugin@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@vendure/asset-server-plugin/-/asset-server-plugin-1.9.3.tgz#f9b1904956a0fa29a462a0ce55c8bd992becb6d8"
+  integrity sha512-X+PDNng1NNb8VW5lpgAQpEfYYT73ZjpJ6mztvAFjr1O6ntbv0dTwT31g2vL5pDYR7+Jn7ib9hmjUUftipCbKkw==
   dependencies:
     file-type "^16.2.0"
     fs-extra "^10.0.0"
-    sharp "~0.30.7"
+    sharp "~0.31.2"
 
-"@vendure/common@^1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@vendure/common/-/common-1.7.1.tgz#4d9da699b1d879af87bdf13f7fdb2c98018da20d"
-  integrity sha512-5GWwUuaKNMuUr5q+Wp0I+zOe6kEpRI271HC17PBQ8/OIulzl5lQ8VWYNoR64Ks4EIGbQFaH5AwsIl1832gR9bg==
+"@vendure/common@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@vendure/common/-/common-1.9.3.tgz#1667b9ee0bfbddefd227580fdbd516a816eca5d4"
+  integrity sha512-BqsBFmuuJVII1qGrJX0x8ectu/+oPwIjdYfz1NX9iO+U4qLNePKKAkUn+YmjSsq/iUEVaB7qQOAYVkszw9uX3w==
 
-"@vendure/core@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@vendure/core/-/core-1.7.1.tgz#4b3da3a2f09ac3c0215a71e7c7fccb1abab6730d"
-  integrity sha512-TstSobcgmiTGq44s4Sr91fMgKx5cOQrS5NXNdyuHHEZP6Yrc+9tYEzRKB5xMglJlwT8aDG8NbquwLKvKpGLQiA==
+"@vendure/core@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@vendure/core/-/core-1.9.3.tgz#22709213c7cd79741f19674b5ad2c5703e7475dd"
+  integrity sha512-seY0mV5Eo2bkuxkRP+zTsxeS/Qyu7nIafxRgKNa9YaS0ipW0FQiDQVv9jnK2fivUKs4lAapzUXrGyxbCni7Cdg==
   dependencies:
     "@graphql-tools/stitch" "^7.5.3"
     "@nestjs/common" "7.6.17"
@@ -836,9 +836,9 @@
     "@nestjs/testing" "7.6.17"
     "@nestjs/typeorm" "7.1.5"
     "@types/fs-extra" "^9.0.1"
-    "@vendure/common" "^1.7.1"
+    "@vendure/common" "^1.9.3"
     apollo-server-express "2.24.1"
-    bcrypt "^5.0.0"
+    bcrypt "^5.1.0"
     body-parser "^1.19.0"
     chalk "^4.1.0"
     commander "^7.1.0"
@@ -865,12 +865,12 @@
     rxjs "^6.6.3"
     typeorm "0.2.45"
 
-"@vendure/create@^1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@vendure/create/-/create-1.7.1.tgz#1b29f660cabe2cc0254886751d17610784857013"
-  integrity sha512-1uJtnoz0/wxwNX+UqUmqv5p+d3GKWSOYAZmV1sfvfFVGGt2L0bNyG1nYJeJ2Dqx3AiIq9ee2H0xH3WwsGde6sg==
+"@vendure/create@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@vendure/create/-/create-1.9.3.tgz#a212e79b776a8d210027d97bef1b1ec980d7ca13"
+  integrity sha512-yiBBD9F/Olkx8K787QTf26pBYw1d2KlQv2QGwDxCieqTZgVyq9NxVoLxZeyLtX/RFO3h1JET0ZzfGyEs0GzGlA==
   dependencies:
-    "@vendure/common" "^1.7.1"
+    "@vendure/common" "^1.9.3"
     chalk "^4.1.0"
     commander "^7.1.0"
     cross-spawn "^7.0.3"
@@ -883,10 +883,10 @@
     semver "^7.3.2"
     tcp-port-used "^1.0.1"
 
-"@vendure/email-plugin@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@vendure/email-plugin/-/email-plugin-1.7.1.tgz#d65a72c78f70679990b18bf110c3e9e03ba46912"
-  integrity sha512-8D/lStMPOLL1OGa0cWmbF3ghl0w7bA0Q2QuSDKhdQ9OsFeP2WMiYWqmS3DtilWubkkVYEs7iwdNDoWQoU/IZzA==
+"@vendure/email-plugin@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@vendure/email-plugin/-/email-plugin-1.9.3.tgz#7cde8421c562753c9f7beafc8c4f772975087ca7"
+  integrity sha512-CzJbY6BQr5H0g+TmlXaBa71E0WUYPgVKQ+L+Djt/Ng07JusL5yuclMS7lV+oQAFCbdhaPCmhLFqzunrgdfaS9A==
   dependencies:
     "@types/nodemailer" "^6.4.0"
     dateformat "^3.0.3"
@@ -1311,13 +1311,13 @@ base64-js@^1.3.1:
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
 
-bcrypt@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/bcrypt/-/bcrypt-5.0.1.tgz#f1a2c20f208e2ccdceea4433df0c8b2c54ecdf71"
-  integrity sha512-9BTgmrhZM2t1bNuDtrtIMVSmmxZBrJ71n8Wg+YgdjHuIWYF7SjjmCPZFB+/5i/o/PIeRpwVJR3P+NrpIItUjqw==
+bcrypt@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/bcrypt/-/bcrypt-5.1.0.tgz#bbb27665dbc400480a524d8991ac7434e8529e17"
+  integrity sha512-RHBS7HI5N5tEnGTmtR/pppX0mmDSBpQ4aCBsj7CEQfYXDcO74A8sIBYcJMuCsis2E81zDxeENYhv66oZwLiA+Q==
   dependencies:
-    "@mapbox/node-pre-gyp" "^1.0.0"
-    node-addon-api "^3.1.0"
+    "@mapbox/node-pre-gyp" "^1.0.10"
+    node-addon-api "^5.0.0"
 
 binary-extensions@^2.0.0:
   version "2.2.0"
@@ -4075,11 +4075,6 @@ node-abi@^3.3.0:
   dependencies:
     semver "^7.3.5"
 
-node-addon-api@^3.1.0:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.2.1.tgz#81325e0a2117789c0128dab65e7e38f07ceba161"
-  integrity sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==
-
 node-addon-api@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-5.0.0.tgz#7d7e6f9ef89043befdb20c1989c905ebde18c501"
@@ -4723,10 +4718,17 @@ semver@^6.0.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
-semver@^7.3.2, semver@^7.3.5, semver@^7.3.7:
+semver@^7.3.2, semver@^7.3.5:
   version "7.3.7"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.7.tgz#12c5b649afdbf9049707796e22a4028814ce523f"
   integrity sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==
+  dependencies:
+    lru-cache "^6.0.0"
+
+semver@^7.3.8:
+  version "7.3.8"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.8.tgz#07a78feafb3f7b32347d725e33de7e2a2df67798"
+  integrity sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==
   dependencies:
     lru-cache "^6.0.0"
 
@@ -4811,16 +4813,16 @@ sha.js@^2.4.11:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-sharp@~0.30.7:
-  version "0.30.7"
-  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.30.7.tgz#7862bda98804fdd1f0d5659c85e3324b90d94c7c"
-  integrity sha512-G+MY2YW33jgflKPTXXptVO28HvNOo9G3j0MybYAHeEmby+QuD2U98dT6ueht9cv/XDqZspSpIhoSW+BAKJ7Hig==
+sharp@~0.31.2:
+  version "0.31.3"
+  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.31.3.tgz#60227edc5c2be90e7378a210466c99aefcf32688"
+  integrity sha512-XcR4+FCLBFKw1bdB+GEhnUNXNXvnt0tDo4WsBsraKymuo/IAuPuCBVAL2wIkUw2r/dwFW5Q5+g66Kwl2dgDFVg==
   dependencies:
     color "^4.2.3"
     detect-libc "^2.0.1"
     node-addon-api "^5.0.0"
     prebuild-install "^7.1.1"
-    semver "^7.3.7"
+    semver "^7.3.8"
     simple-get "^4.0.1"
     tar-fs "^2.1.1"
     tunnel-agent "^0.6.0"
