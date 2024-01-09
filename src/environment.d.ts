@@ -17,8 +17,8 @@ declare global {
             DB_SCHEMA: string;
             RUN_JOB_QUEUE_FROM_SERVER: string;
             ASSET_UPLOAD_DIR?: string;
-            MINIO_ACCESS_KEY_ID: string;
-            MINIO_SECRET_ACCESS_KEY: string;
+            MINIO_ACCESS_KEY: string;
+            MINIO_SECRET_KEY: string;
             MINIO_ENDPOINT?: string;
         }
     }

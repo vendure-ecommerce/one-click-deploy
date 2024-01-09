@@ -76,8 +76,8 @@ export const config: VendureConfig = {
             storageStrategyFactory: process.env.MINIO_ENDPOINT ?  configureS3AssetStorage({
                 bucket: 'vendure-assets',
                 credentials: {
-                    accessKeyId: process.env.MINIO_ACCESS_KEY_ID,
-                    secretAccessKey: process.env.MINIO_SECRET_ACCESS_KEY,
+                    accessKeyId: process.env.MINIO_ACCESS_KEY,
+                    secretAccessKey: process.env.MINIO_SECRET_KEY,
                 },
                 nativeS3Configuration: {
                     endpoint: process.env.MINIO_ENDPOINT,
