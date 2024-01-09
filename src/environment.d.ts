@@ -16,6 +16,7 @@ declare global {
             DB_USERNAME: string;
             DB_PASSWORD: string;
             DB_SCHEMA: string;
+            DB_CA_CERT?: string;
             RUN_JOB_QUEUE_FROM_SERVER: string;
             ASSET_UPLOAD_DIR?: string;
             MINIO_ACCESS_KEY: string;
