@@ -9,9 +9,10 @@ declare global {
             COOKIE_SECRET: string;
             SUPERADMIN_USERNAME: string;
             SUPERADMIN_PASSWORD: string;
+            DB_URL?: string;
             DB_HOST: string;
             DB_PORT: number;
-            DB_NAME: string;
+            DB_NAME?: string;
             DB_USERNAME: string;
             DB_PASSWORD: string;
             DB_SCHEMA: string;

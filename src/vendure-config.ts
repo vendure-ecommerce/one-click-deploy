@@ -51,6 +51,7 @@ export const config: VendureConfig = {
         database: process.env.DB_NAME,
         schema: process.env.DB_SCHEMA,
         host: process.env.DB_HOST,
+        url: process.env.DB_URL,
         port: +process.env.DB_PORT,
         username: process.env.DB_USERNAME,
         password: process.env.DB_PASSWORD,
