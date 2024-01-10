@@ -56,7 +56,6 @@ export const config: VendureConfig = {
         username: process.env.DB_USERNAME,
         password: process.env.DB_PASSWORD,
         ssl: process.env.DB_CA_CERT ? {
-            rejectUnauthorized: true,
             ca: process.env.DB_CA_CERT,
         } : undefined,
     },
