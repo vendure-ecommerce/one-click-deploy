@@ -3,7 +3,7 @@ FROM node:20
 WORKDIR /usr/src/app
 
 COPY package.json ./
-COPY yarn.lock ./
-RUN yarn
+COPY package-lock.json ./
+RUN npm install
 COPY . .
-RUN yarn build
+RUN npm run build
