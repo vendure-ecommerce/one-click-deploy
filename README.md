@@ -87,7 +87,7 @@ will be required whenever you make changes to the `customFields` config or defin
 The following npm scripts can be used to generate migrations:
 
 ```
-npm run migration:generate [name]
+npx vendure migrate
 ```
 
 The generated migration file will be found in the `./src/migrations/` directory, and should be committed to source control.
